@@ -1,0 +1,37 @@
+Filename: src/main/resources/config.yml
+Content:
+# PlotGenesis Configuration
+
+plot-world:
+  default-world: "plotworld"
+  plot-size: 32
+  road-width: 7
+  plot-height: 64
+  ground-block: GRASS_BLOCK
+  road-block: STONE
+  border-block: STONE_BRICKS
+  wall-height: 1
+
+claiming:
+  max-plots: 3
+  require-permission: false
+  auto-claim-first: false
+
+protection:
+  block-break: true
+  block-place: true
+  entity-damage: true
+  interaction: true
+  pvp: false
+
+messages:
+  prefix: "&8[&bPlotGenesis&8]&r "
+  plot-claimed: "&aYou have claimed this plot!"
+  plot-already-claimed: "&cThis plot is already claimed!"
+  max-plots-reached: "&cYou have reached the maximum number of plots!"
+  no-plot: "&cYou don't own a plot!"
+  plot-cleared: "&aYour plot has been cleared!"
+  plot-deleted: "&aYour plot claim has been deleted!"
+  no-permission: "&cYou don't have permission to do that!"
+  teleported-home: "&aTeleported to your plot!"
+  world-created: "&aPlot world created successfully!"
