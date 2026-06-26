@@ -1,0 +1,46 @@
+Content:
+name: PlotGenesis
+version: '1.0.0'
+main: com.plotgenesis.PlotGenesis
+api-version: '1.21'
+authors: [YourName]
+description: Advanced plot generation and management plugin
+
+commands:
+  plot:
+    description: Main plot command
+    usage: /<command> [claim|auto|home|visit|clear|delete|info|list]
+    aliases: [p, plots]
+  plotworld:
+    description: Create a plot world
+    usage: /<command> <worldname>
+    permission: plotgenesis.admin
+
+permissions:
+  plotgenesis.claim:
+    description: Allows players to claim plots
+    default: true
+  plotgenesis.auto:
+    description: Automatically claim a plot
+    default: true
+  plotgenesis.home:
+    description: Teleport to your plot
+    default: true
+  plotgenesis.visit:
+    description: Visit other player's plots
+    default: true
+  plotgenesis.clear:
+    description: Clear your plot
+    default: true
+  plotgenesis.delete:
+    description: Delete your plot claim
+    default: true
+  plotgenesis.info:
+    description: View plot information
+    default: true
+  plotgenesis.admin:
+    description: Admin commands for plot management
+    default: op
+  plotgenesis.bypass:
+    description: Bypass plot protection
+    default: op
